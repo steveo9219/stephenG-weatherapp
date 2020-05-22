@@ -12,19 +12,16 @@
   </head>
   <body>
     <h1>Weather Dashboard</h1>
-    <div class="container searchbox">
-      <div class="row-lg-3">
-        <div class="col-12">
+    <article class="container searchbox">
+      <div class="row">
+        <div class="col-3">
           Search for a City:
           <div class="input">
             <input type="text" class="inputValue" />
             <input type="submit" value="Submit" />
           </div>
         </div>
-      </div>
-      <div class="container weatherDisplay">
-        <div class="row-lg-9">
-          <!-- <div class="col-3"> -->
+        <div class="col-6">
           <h2 class="city-header" id="city-header">City Name</h2>
           <p>Temperature:</p>
           <p id="temperature-header" value="temperatureMain"></p>
@@ -34,6 +31,26 @@
           <p id="windspeed-header" value="windspeedMain"></p>
           <p>UV Index:</p>
           <p id="uvindex-header" value="uvindexMain"></p>
+        </div>
+      </div>
+    </article>
+    <div class="container fiveDayForecast">
+      <div class="row">
+        <div class="col-2"></div>
+        <div class="col-2">
+          <p id="dayOneForecast">Day 1 forecast</p>
+        </div>
+        <div class="col-2">
+          <p id="dayTwoForecast">Day 2 forecast</p>
+        </div>
+        <div class="col-2">
+          <p id="dayThreeForecast">Day 3 forecast</p>
+        </div>
+        <div class="col-2">
+          <p id="dayFourForecast">Day 4 forecast</p>
+        </div>
+        <div class="col-2">
+          <p id="dayFiveForecast">Day 5 forecast</p>
         </div>
       </div>
     </div>
