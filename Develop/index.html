@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Weather Dashboard</title>
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -11,7 +11,32 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>Weather Data</h1>
+    <h1>Weather Dashboard</h1>
+    <div class="container searchbox">
+      <div class="row-lg-3">
+        <div class="col-12">
+          Search for a City:
+          <div class="input">
+            <input type="text" class="inputValue" />
+            <input type="submit" value="Submit" />
+          </div>
+        </div>
+      </div>
+      <div class="container weatherDisplay">
+        <div class="row-lg-9">
+          <!-- <div class="col-3"> -->
+          <h2 class="city-header" id="city-header">City Name</h2>
+          <p>Temperature:</p>
+          <p id="temperature-header" value="temperatureMain"></p>
+          <p>Humidity:</p>
+          <p id="humidity-header" value="humidityMain"></p>
+          <p>Wind Speed:</p>
+          <p id="windspeed-header" value="windspeedMain"></p>
+          <p>UV Index:</p>
+          <p id="uvindex-header" value="uvindexMain"></p>
+        </div>
+      </div>
+    </div>
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="script.js"></script>

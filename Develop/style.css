@@ -1,0 +1,18 @@
+h1 {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(79, 79, 79);
+  color: white;
+  padding: 10px;
+}
+
+.searchbox {
+  margin: 0;
+  display: flex;
+  justify-content: flex-start;
+  border-style: solid;
+}
+
+.weatherDisplay {
+  border-style: solid;
+}
