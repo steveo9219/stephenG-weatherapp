@@ -7,12 +7,14 @@ h1 {
 }
 
 .searchbox {
-  margin: 0;
-  display: flex;
-  justify-content: flex-start;
   border-style: solid;
+  flex-direction: column;
 }
 
 .weatherDisplay {
+  border-style: solid;
+}
+
+.fiveDayForecast {
   border-style: solid;
 }
