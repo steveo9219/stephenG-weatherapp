@@ -18,3 +18,23 @@ h1 {
 .fiveDayForecast {
   border-style: solid;
 }
+
+.uvGreen {
+  background-color: #77dd77;
+  color: white;
+}
+
+.uvYellow {
+  background-color: yellow;
+  color: white;
+}
+
+.uvOrange {
+  background-color: orange;
+  color: white;
+}
+
+.uvRed {
+  background-color: red;
+  color: white;
+}
