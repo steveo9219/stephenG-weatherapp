@@ -1,40 +1,82 @@
-h1 {
-  display: flex;
-  justify-content: center;
-  background-color: rgb(79, 79, 79);
-  color: white;
-  padding: 10px;
+body {
+	background: #ade8f4;
 }
 
-.searchbox {
-  border-style: solid;
-  flex-direction: column;
+.dashboard {
+	display: flex;
+	margin: 0;
+	flex-wrap: wrap;
+}
+
+.search {
+	margin: 10px;
+}
+
+.main {
+	margin: 10px;
+}
+
+h1 {
+	text-align: center;
+	padding: 10px;
+	background-color: rgb(79, 79, 79);
+	color: white;
+}
+
+.weather-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 1000px;
 }
 
 .weatherDisplay {
-  border-style: solid;
+	border-style: solid;
+}
+
+.weatherDisplay {
+	border-style: solid;
+}
+.currentWeather {
+	max-width: 800px;
+	border-style: solid;
+	border: solid 1px;
 }
 
 .fiveDayForecast {
-  border-style: solid;
+	border-style: solid;
+	display: flex;
+	justify-content: center;
+	background-color: lightblue;
 }
 
 .uvGreen {
-  background-color: #77dd77;
-  color: white;
+	background-color: #77dd77;
+	color: black;
 }
 
 .uvYellow {
-  background-color: yellow;
-  color: white;
+	background-color: yellow;
+	color: black;
 }
 
 .uvOrange {
-  background-color: orange;
-  color: white;
+	background-color: orange;
+	color: white;
 }
 
 .uvRed {
-  background-color: red;
-  color: white;
+	max-width: 50px;
+	background-color: red;
+	color: white;
+}
+
+button {
+	background-color: blue;
+	color: white;
+}
+
+h2 {
+	display: flex;
+	align-items: center;
 }
