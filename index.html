@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Weather Dashboard</title>
+		<link
+			rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		/>
+		<link rel="stylesheet" href="../Develop/style.css" />
+	</head>
+	<body>
+		<h1>Weather Dashboard</h1>
+		<div class="dashboard">
+			<div class="search">
+				<article class="sidebar">
+					Search for a City:
+					<form id="city">
+						<input type="text" id="inputValue" />
+						<input type="submit" id="submit" class="button" />
+					</form>
+					<p>Previous searched cities</p>
+					<div class="cityButtons" id="cities"></div>
+				</article>
+			</div>
+			<div class="main">
+				<main class="currentWeather">
+					<h2 class="city-header" id="city-header"></h2>
+					<p class="today"></p>
+					<p>Temperature:</p>
+					<p id="temperature-header" value="temperatureMain"></p>
+					<p>Humidity:</p>
+					<p id="humidity-header" value="humidityMain"></p>
+					<p>Wind Speed:</p>
+					<p id="windspeed-header" value="windspeedMain"></p>
+					<p>UV Index:</p>
+					<p id="uvindex-header" value="uvindexMain"></p>
+				</main>
+
+				<div class="fiveDayForecast">
+					<h2>5-Day Forecast</h2>
+					<div class="weather-container">
+						<div>
+							<p class="dayOneDate"></p>
+							<img src=" " />
+							<p>Average Temperature:</p>
+							<p id="dayOneTemp"></p>
+							<p>Humidity:</p>
+							<p id="dayOneHumidity"></p>
+						</div>
+						<div>
+							<p id="dayTwoDate"></p>
+							<img src=" " />
+							<p>Average Temperature:</p>
+							<p id="dayTwoTemp"></p>
+							<p>Humidity:</p>
+							<p id="dayTwoHumidity"></p>
+						</div>
+						<div>
+							<p id="dayThreeDate"></p>
+							<img src=" " />
+							<p>Average Temperature:</p>
+							<p id="dayThreeTemp"></p>
+							<p>Humidity:</p>
+							<p id="dayThreeHumidity"></p>
+						</div>
+						<div>
+							<p id="dayFourDate"></p>
+							<img src=" " />
+							<p>Average Temperature:</p>
+							<p id="dayFourTemp"></p>
+							<p>Humidity:</p>
+							<p id="dayFourHumidity"></p>
+						</div>
+						<div>
+							<p id="dayFiveDate"></p>
+							<img src=" " />
+							<p>Average Temperature:</p>
+							<p id="dayFiveTemp"></p>
+							<p>Humidity:</p>
+							<p id="dayFiveHumidity"></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="../Develop/script.js"></script>
+	</body>
+</html>
