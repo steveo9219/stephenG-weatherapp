@@ -46,10 +46,7 @@ if (localStorage.getItem("cityNames")) {
 		var newLink = document.createElement("BUTTON");
 		newLink.innerHTML = oldCityNames[i];
 		cities.appendChild(newLink);
-
-		//$("#cities").html(`<div> ${oldCityNames} </div>`);
 	}
-	//cities.create(`${oldCityNames[i]}\n`);
 }
 
 cityForm.addEventListener("submit", function (e) {
