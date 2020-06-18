@@ -1,4 +1,4 @@
-Weatherboard Screenshot - https://drive.google.com/file/d/1Zi-XUGwSg2coLLEafm4SmgnaPODIaDco/view?usp=sharinghttps://drive.google.com/file/d/1Zi-XUGwSg2coLLEafm4SmgnaPODIaDco/view?usp=sharing
+Weatherboard Dashboard Screenshot - https://drive.google.com/file/d/1Zi-XUGwSg2coLLEafm4SmgnaPODIaDco/view?usp=sharinghttps://drive.google.com/file/d/1Zi-XUGwSg2coLLEafm4SmgnaPODIaDco/view?usp=sharing
 
 Github Repo: https://github.com/steveo9219/stephenG-weatherapp
 
